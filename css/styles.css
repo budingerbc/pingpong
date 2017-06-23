@@ -1,0 +1,21 @@
+.jumbotron {
+  text-align: center;
+  background-color: #003366;
+  color: white;
+}
+
+body {
+  background-color: #e6f2ff;
+}
+
+#leftColumn {
+  background-color: teal;
+}
+
+#middleColumn {
+  background-color: cyan;
+}
+
+#rightColumn {
+  background-color: green;
+}
