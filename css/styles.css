@@ -1,21 +1,46 @@
+body {
+  background-color: #e6f2ff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .jumbotron {
   text-align: center;
   background-color: #003366;
   color: white;
 }
 
-body {
-  background-color: #e6f2ff;
+.container-fluid {
+  overflow: hidden;
 }
 
-#leftColumn {
-  background-color: teal;
+#left {
+  background-color: #a4bee8;
+  margin-bottom: -5000px;
+  padding-bottom: 5000px;
+  border-right: 2px solid #006fe6;
 }
 
-#middleColumn {
-  background-color: cyan;
+#right {
+  background-color: pink;
 }
 
-#rightColumn {
-  background-color: green;
+#pingpong {
+  max-width: 200px;
+  height: auto;
+  display:block;
+  margin: auto;
+}
+
+#aboutHeader {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  border: 2px ridge pink;
+  border-radius: 2px;
+}
+
+.leftHeaders {
+  color: #FAFAD2;
 }

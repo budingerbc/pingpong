@@ -44,10 +44,6 @@ $(document).ready(function() {
     }
 
     alert(results);
-
-
-
-
-    event.preventDefault();
+  event.preventDefault();
   });
 });
