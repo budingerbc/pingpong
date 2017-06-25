@@ -1,8 +1,5 @@
 body {
   background-color: #e6f2ff;
-  height: 100%;
-  width: 100%;
-  position: absolute;
 }
 
 .jumbotron {
@@ -17,13 +14,11 @@ body {
 
 #left {
   background-color: #a4bee8;
-  margin-bottom: -5000px;
-  padding-bottom: 5000px;
   border-right: 2px solid #006fe6;
 }
 
 #right {
-  background-color: pink;
+  background-color: e6f2ff;
 }
 
 #pingpong {
@@ -43,4 +38,18 @@ body {
 
 .leftHeaders {
   color: #FAFAD2;
+  padding: 0px 5px;
+}
+
+.leftContent {
+  padding: 0px 10px;
+}
+
+#topColumn {
+  border-bottom: 2px solid grey;
+  padding: 10px 5px;
+}
+
+.btn {
+  margin-left: 5px;
 }

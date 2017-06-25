@@ -8,51 +8,52 @@
   <title>Ping Pong</title>
 </head>
 <body>
-
-  <!-- <div class="container-fluid">
-
-
-    <form>
-      <div class="row-fluid">
-      <div class="col-fluid" id="leftColumn">
-        <h1>SLJFasljfdsafas;fsakjflajfdsal;kfdjsaklfjaklfjaklfjakfjkdjdjadf</h1>
-        <p>akfda;a</p>
-      </div>
-      <div class="col-fluid" id="middleColumn">
-        <h1>midd colum</h1>
-      </div>
-      <div class="col-fluid" id="rightColumn">
-        <h1>right col</h1>
-      </div>
-    </div>
-</form> -->
-
   <form>
     <div class="jumbotron">
-    <h1>Ping Pong!</h1>
-  </div>
-
-  <div class="container">
-    <div class="row">
-    <div class="col-md-4" id="left">
-      <div id="aboutHeader">
-        <h1>About Ping Pong</h1>
-        <img src="img/pingpong.jpg" alt="Ping Pong" id="pingpong">
-      </div>
-      <h2 class="leftHeaders">Created by:</h2>
-      <h4 class="leftContent">Ben Budinger</h4>
-      <h2 class="leftHeaders">GitHub Username/URL:</h2>
-      <h4 class="leftContent">budingerbc</h4>
-      <h2 class="leftHeaders">Technologies Used:</h2>
+      <h1>Ping Pong!</h1>
     </div>
-    <div class="col-md-8" id="right">
-      <h1>Right</h1>
-      <input type="number" id="userInput" placeholder="Enter a number">
-      <button type="submit" class="btn btn-primary">PingPong!</button>
-    </div>
-    </form>
 
-  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" id="left">
+          <div id="aboutHeader">
+            <h1>About Ping Pong</h1>
+            <img src="img/pingpong.jpg" alt="Ping Pong" id="pingpong">
+          </div>
+          <h2 class="leftHeaders">Created by:</h2>
+          <h4 class="leftContent">Ben Budinger</h4>
+          <h2 class="leftHeaders">GitHub Username/URL:</h2>
+          <h4 class="leftContent">budingerbc</h4>
+          <h2 class="leftHeaders">Technologies Used:</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+          </ul>
+        </div>
+        <div class="col-md-8" id="right">
+          <div id="topColumn">
+            <h2>Let's play!</h2>
+            <h4>Rules:</h4>
+            <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+            <ol>
+              <li>Numbers divisible by 3 become '<em>ping</em>'</li>
+              <li>Numbers divisible by 5 become '<em>pong</em>'</li>
+              <li>Numbers divisble by 3 and 5 become '<em>pingpong</em>'</li>
+            </ol>
+            <input type="number" id="userInput" placeholder="Enter a number">
+            <button type="submit" class="btn btn-primary">PingPong!</button>
+          </div>
+          <div id="bottomColumn">
+            <ul>
+
+            </ul>
+          </div>
+        </div>
+      </form>
+
+    </div>
 
   </div>
 </body>
