@@ -28,7 +28,8 @@ $(document).ready(function() {
 
     // gets the user input from the form field and converts it to an integer
     var userInput = parseInt($("#userInput").val());
-    var results = [];
+    // resets the list item output to blank
+    $("#bottomColumn ul").text("");
 
     // checks to make sure the value entered is greater than 0
     if (userInput <= 0) {
@@ -43,15 +44,12 @@ $(document).ready(function() {
         $("#bottomColumn ul").append('<li>pingpong</li>');
       } else if (divisorFive(count)) {
         $("#bottomColumn ul").append('<li>pong</li>');
-        results.push('pong');
       } else if (divisorThree(count)) {
-        results.push('ping');
+        $("#bottomColumn ul").append('<li>ping</li>');
       } else {
-        results.push(count);
+        $("#bottomColumn ul").append('<li>' + count + '</li>');
       }
     }
-
-    alert(results);
     event.preventDefault();
   });
 });

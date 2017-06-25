@@ -53,3 +53,7 @@ body {
 .btn {
   margin-left: 5px;
 }
+
+#bottomColumn {
+  margin: 10px 0px;
+}
